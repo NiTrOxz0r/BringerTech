@@ -1,0 +1,337 @@
+      /*===============================================
+                              General Variables
+      ================================================*/
+$font:'Roboto Condensed', sans-serif;
+$bringerverde: #08DB2B;
+$grey: #41464B;
+$blueBayoux: #64707B;
+$white: #fff;
+$black: #000;  
+$green: #c3f73a;
+  
+                /*===============================================
+                                        General Estilos
+                ================================================*/
+                html , body {
+                    height: 100%;
+                }
+                body {
+                    font-family: $font;
+                }
+                
+                p {
+                    color: $blueBayoux;
+                    font-size: 18px;
+                    font-weight: 300;
+                }
+                
+                h3 {
+                    color: $grey;
+                    text-transform: uppercase;
+                }   
+      
+      /*===============================================
+                              INICIO 
+      ================================================*/
+
+      #inicio {
+          height: 100%;
+      }
+      
+      #inicio-cover {
+          height: 100%;
+          background-image: url("../img/home.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          
+      }
+      
+      #inicio-content-box {
+          width: 100%;
+          height: 100%;
+          display: table;
+      }
+      
+      #inicio-content-box-inner {
+          display: table-cell;
+          vertical-align: middle;
+      }
+      
+      #inicio-heading {
+          h3 {
+              color: $white;
+              font-size: 55px;
+              font-weight: 700;
+              margin: 20px 0 20px 0;
+          }
+      }
+
+      /*===============================================
+                              Parallax
+      ================================================*/
+      .bg-parallax {
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+      }
+      /*===============================================
+                              Button
+      ================================================*/
+      .btn-general {
+          border-width: 2px;
+          border-radius: 0;
+          padding: 12px 26px 12px 26px;
+          font-size: 16px;
+          font-weight: 400;
+          text-transform: uppercase;  
+      }
+      
+      .btn-white {
+          border-color: $white;
+          color: $white;
+          &:hover, &:focus {
+              background-color: $white;
+              color: $grey;
+          }
+      }
+
+    /*===============================================
+                            Animate
+    ================================================*/
+    
+    #inicio-cover {
+        animation-delay: .1s;
+    }
+    
+    #inicio-heading {
+        animation-delay: .5s;
+    }
+    
+    #home-btn {
+        animation-delay: 1s;
+    }
+
+        
+
+        /*===============================================
+                             SERVICIOS y el Contenido
+        ================================================*/
+
+        .content-box {
+            padding: 60px 0 60px 0;
+        }
+        
+        .content-title {
+            h3 {
+                font-size: 30px;
+                font-weight: 700;
+                text-align: center;
+                margin: 0 0 30px 0;
+            }
+        }
+        
+        .content-title-underline {
+            width: 30px;
+            height: 3px;
+            background-color: $bringerverde;
+            margin: 0 auto 30px auto;
+        }
+            
+            .service-item {
+                padding: 20px 0 20px 0;
+                margin-bottom: 20px;
+                cursor: pointer;
+            }
+            
+            .service-item-icon {
+                i {
+                    color: $bringerverde;
+                    float: left;
+                    padding: 15px;
+                    margin-right: 25px;
+                    width: 75px;
+                    height: 75px;
+                    text-align: center;
+                }
+            }
+            
+            .service-item {
+            
+                &:hover {
+                    .service-item-icon {
+                        i {
+                            color: $white;
+                            background-color: $bringerverde;
+                        }
+                    }
+                }
+            
+            }
+            
+            .service-item-title {
+            
+                h3 {
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin: 0 0 10px 0;
+                }
+                
+            }
+            
+            .service-item-desc {
+                p {
+                    margin: 0;
+                    padding-left: 85px;
+            
+                }
+            }         
+/*===============================================
+                        About
+================================================*/
+#about-content-box {
+    float: left;
+    height: 700px;
+}
+
+#about-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#about-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#about {
+
+    .content-title {
+
+        h3 {
+            text-align:left
+        }
+
+        .content-title-underline {
+            margin: 0 0 30px 0;
+        }
+
+    }
+
+}
+
+#about-desc {
+    p {
+        margin-bottom: 30px;
+    }
+}
+
+.btn-blue {
+    border-color: $bringerverde;
+    color: $bringerverde;
+    &:hover, &:focus {
+        background-color: $bringerverde;
+        color: $white;
+    }
+}
+
+#about-bg-diagonal {
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url(../img/bg-about.jpg);
+    border-left: 200px solid $white;
+    border-top: 700px solid transparent;
+}
+
+/*===============================================
+                        Work
+================================================*/
+.row {
+    .no-padding-lr {
+        padding-left:0;
+        padding-right:0;
+    }
+}
+
+.img-wrapper {
+
+    overflow: hidden;
+
+    img {
+
+        transition: transform .5s ease;
+
+        &:hover {
+            transform:scale(1.5);
+        }
+    }
+
+}
+ /*===============================================
+                            Team
+    ================================================*/
+    .team-member {
+        margin: 0 15px;
+    }
+    
+    .team-member-info {
+        padding: 10px 0 30px 0;
+    }
+    
+    
+    h4.team-member-name {
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            padding-top: 2px;
+    }
+    
+    h4.team-member-designation {
+            color: $bringerverde;
+            font-size: 15px;
+            font-weight: 700;
+            font-style: italic;
+            letter-spacing: 1px;
+            margin-top: 5px;
+    }
+
+    /*===============================================
+                            Social
+    ================================================*/
+    
+    .social-list {
+        padding-left: 0;
+    
+        li {
+            list-style: none;
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            margin-right: 6px;
+            margin-top: 10px;
+        }
+    }
+    
+    .social-icon {
+    
+        i {
+            font-size: 17px;
+            
+            &:hover {
+                color: $bringerverde;
+            }
+        }
+        
+        
+    }
+    
+    .icon-gray {
+        
+        i {
+            color: $grey;
+        }
+    
+    }
