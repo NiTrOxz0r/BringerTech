@@ -66,8 +66,8 @@ $(document).ready(function(){
         });
 
  /*===============================================
-                        Smooth-Scroll
-================================================*/
+                        Smooth-Scroll esta roto
+================================================
 
 $("a.smooth-scroll").click( function(evento){
 
@@ -78,7 +78,7 @@ $("a.smooth-scroll").click( function(evento){
         scrollTop: $(section).offset().top
     });
 
-}, 0);
+}, 0);*/
 
 /*===============================================
                         Button Top

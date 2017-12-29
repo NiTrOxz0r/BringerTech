@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*===============================================
                               General Variables
       ================================================*/
@@ -25,12 +26,19 @@ h3 {
 .navbar {
   padding: 20px 0; }
 
-.vesco-top-nav {
+.bringer-top-nav {
   background: rgba(0, 0, 0, 0.7);
   padding: 7px 0; }
 
-.vesco-nav-wrapper {
+.bringer-nav-wrapper {
   padding: 0 85px; }
+
+.navbar-brand {
+  float: left;
+  padding: 0px 0px;
+  font-size: 18px;
+  line-height: 20px;
+  height: 50px; }
 
 .navbar-nav {
   float: right; }
@@ -42,13 +50,23 @@ h3 {
     font-weight: 700; }
     .navbar-nav li a:hover, .navbar-nav li a:focus {
       background: none;
-      color: #08DB2B; }
+      color: #459D5B; }
+
+.navbar-toggle {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #fff;
+  border-radius: 0; }
+  .navbar-toggle .icon-bar {
+    background-color: #fff; }
+
+.navbar-collapse {
+  max-height: none !important; }
 
 /*===============================================
                         Scroll-Spy
 ================================================*/
-.vesco-top-nav ul.navbar-nav li.active a {
-  color: #08DB2B; }
+.bringer-top-nav ul.navbar-nav li.active a {
+  color: #459D5B; }
 
 .navbar-toggle {
   background-color: rgba(0, 0, 0, 0.1);
@@ -126,7 +144,7 @@ h3 {
   display: none; }
 
 /*===============================================
-                            Animate
+                            Animación del boton
     ================================================*/
 #inicio-cover {
   -webkit-animation-delay: .1s;
@@ -155,7 +173,7 @@ h3 {
 .content-title-underline {
   width: 30px;
   height: 3px;
-  background-color: #08DB2B;
+  background-color: #459D5B;
   margin: 0 auto 30px auto; }
 
 .service-item {
@@ -164,7 +182,7 @@ h3 {
   cursor: pointer; }
 
 .service-item-icon i {
-  color: #08DB2B;
+  color: #459D5B;
   float: left;
   padding: 15px;
   margin-right: 25px;
@@ -174,7 +192,7 @@ h3 {
 
 .service-item:hover .service-item-icon i {
   color: #fff;
-  background-color: #08DB2B; }
+  background-color: #459D5B; }
 
 .service-item-title h3 {
   font-size: 20px;
@@ -211,10 +229,10 @@ h3 {
   margin-bottom: 30px; }
 
 .btn-blue {
-  border-color: #08DB2B;
-  color: #08DB2B; }
+  border-color: #459D5B;
+  color: #459D5B; }
   .btn-blue:hover, .btn-blue:focus {
-    background-color: #08DB2B;
+    background-color: #459D5B;
     color: #fff; }
 
 #about-bg-diagonal {
@@ -259,7 +277,7 @@ h4.team-member-name {
   padding-top: 2px; }
 
 h4.team-member-designation {
-  color: #08DB2B;
+  color: #459D5B;
   font-size: 15px;
   font-weight: 700;
   font-style: italic;
@@ -274,15 +292,15 @@ h4.team-member-designation {
   .social-list li {
     list-style: none;
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 25px;
+    height: 20px;
     margin-right: 6px;
     margin-top: 10px; }
 
 .social-icon i {
-  font-size: 17px; }
+  font-size: 25px; }
   .social-icon i:hover {
-    color: #08DB2B; }
+    color: #459D5B; }
 
 .icon-gray i {
   color: #41464B; }
@@ -291,12 +309,12 @@ h4.team-member-designation {
                             Precios
     ================================================*/
 .pricing-box {
-  border: 3px solid #08DB2B;
+  border: 3px solid #459D5B;
   padding: 50px 0;
   margin: 40px 0; }
 
 .pricing-title {
-  background-color: #08DB2B;
+  background-color: #459D5B;
   color: #fff;
   display: inline-block;
   padding: 7px 15px;
@@ -325,9 +343,9 @@ h4.team-member-designation {
 .pricing-box-lg {
   padding: 90px 0;
   margin: 0;
-  background-color: #08DB2B; }
+  background-color: #459D5B; }
   .pricing-box-lg h4 {
-    color: #08DB2B;
+    color: #459D5B;
     background-color: #fff; }
   .pricing-box-lg ul li p {
     color: #fff; }
@@ -338,16 +356,19 @@ h4.team-member-designation {
 #stats-cover {
   background-image: url("../img/bg-stats.jpg"); }
 
+.content-title-white h3 {
+  color: #fff; }
+
 #stats .content-box {
   background-color: rgba(0, 0, 0, 0.8); }
 
 .stats-item {
   padding: 100px 0; }
   .stats-item i {
-    color: #08DB2B; }
+    color: #459D5B; }
   .stats-item h2 {
     color: #fff;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 700;
     margin-top: 15px;
     margin-bottom: 1px; }
@@ -434,4 +455,4 @@ form .form-control {
       margin: 0 10px;
       text-decoration: none; }
       #footer-bottom #footer-menu a:hover {
-        color: #08DB2B; }
+        color: #459D5B; }

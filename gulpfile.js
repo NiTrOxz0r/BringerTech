@@ -3,7 +3,7 @@ var gulp = require('gulp');
                           var autoprefixer = require('gulp-autoprefixer');
                           var browserSync = require('browser-sync').create();
                            
-                          gulp.task('serve', ['sass'], function() {
+                          gulp.task('server', ['sass'], function() {
                               
                               browserSync.init({
                                       server: "./"
