@@ -2,7 +2,7 @@
                               General Variables
       ================================================*/
 $font:'Roboto Condensed', sans-serif;
-$bringerverde: #459D5B;
+$bringerverde: #459d5b;
 $grey: #41464B;
 $blueBayoux: #64707B;
 $white: #fff;
@@ -408,8 +408,8 @@ $green: #c3f73a;
         li {
             list-style: none;
             display: inline-block;
-            width: 25px;
-            height: 20px;
+            width: 32px;
+            height: 32px;
             margin-right: 6px;
             margin-top: 10px;
         }
@@ -418,7 +418,7 @@ $green: #c3f73a;
     .social-icon {
     
         i {
-            font-size: 25px;
+            font-size: 17px;
             
             &:hover {
                 color: $bringerverde;
