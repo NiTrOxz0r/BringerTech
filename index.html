@@ -13,14 +13,19 @@
 	<!-- fonts de awesome-->
 	<link rel="stylesheet" href="css/font-awesome.css">
 
+    <!-- Slider  -->  
+
+     <link rel="stylesheet" type="text/css" href="css/nivo-slider.css">
+     <link rel="stylesheet" type="text/css" href="img/themes-slide/default/default.css">
+     <link rel="stylesheet" type="text/css" href="img/themes-slide/dark/dark.css">          
 	<!--Librerias css -->
-	 <link rel="stylesheet" href="css/animate.css">  
-     <link href="css/bootstrap.css" rel="stylesheet">
+	 <link rel="stylesheet" href="css/animate.css">
      <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
      <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-     <!-- Mi Estilo -->
-    
-     <link rel="stylesheet" type="text/css" href="css/styless.css"> 
+     
+     <!-- Mi Estilo y Boostrap-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styless.css"> 
 
 </head>
 <header>
@@ -59,26 +64,20 @@
 </header>
 <body data-spy="scroll" data-target=".bringer-top-nav" data-offset="65">
 	<section id="inicio">
-            
-        <div id="inicio-cover" class="bg-parallax animated fadeIn">
-            
-            <div id="inicio-content-box">
 
-                <div id="inicio-content-box-inner" class="text-center">
 
-                    <div id="inicio-heading" class="animated zoomIn">
-                        <h3>Mirar Nuestros <br> Proyectos Responsive</h3>
-                    </div>
+        <div class="slider-wrapper theme-default">
+   <div id="slider" class="nivoSlider">     
+    <img src="img/slide1.jpg" alt="" />    
+    <a href="http://dev7studios.com"><img src="img/slide2.jpg" alt="" title="#htmlcaption" /></a>     
+    <img src="img/slide3.jpg" alt="" title="This is an example of a caption" />     
+    <img src="img/slide4.jpg" alt="" /> 
 
-                    <div id="home-btn" class="animated zoomIn">
-                        <a class="btn btn-lg btn-general btn-white" href="#trabajo" role="button" title="View Our Work">Nuestros Trabajos</a>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div> 
+    <div id="htmlcaption" class="nivo-html-caption">     
+    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+    </div>
+</div> 
+</div>
    </section>
             
 <section id="servicios">
@@ -665,9 +664,12 @@
 <a href="#inicio" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll" title="Home" role="button"><i class="fa fa-angle-up"></i></a>
   
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.js"></script>
+    <!-- <script src="js/jquery-3.2.1.min.js"></script> -->
+     <script src="js/jquery-1.9.0.min.js"></script>
      <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.nivo.slider.js"></script>
+    <script src="js/jquery.nivo.slider.pack.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
